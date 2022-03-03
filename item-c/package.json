@@ -1,0 +1,16 @@
+{
+  "name": "item-c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "cross-env PUBLIC_PATH=/ http-server ./ -p 8092 --cors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "http-server": "^13.0.0"
+  }
+}
